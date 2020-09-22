@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=tts
+
+
+[Package|tts|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\default\Desktop\tts\package
+
+[Package|tts|Configure DAO ISAMs]
+Applicable=No
+
+[Package|tts|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|tts|Files Found]
+Xvoice.dll=C:\Documents and Settings\default\Desktop\tts\Xvoice.dll
+
+[Package|tts|Files Released]
+
+[Package|tts|Missing Dependency Information]
+C:\Documents and Settings\default\Desktop\tts\Xvoice.dll=
+
+[Package|tts|Out-of-Date Dependency Information]
+
+[Package|tts|Files Added]
+
+[Package|tts|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\windows\system32\comcat.dll=
+
+[Package|tts|Files In Project]
+C:\Documents and Settings\default\Desktop\tts\Text To Speech.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=No
+C:\WINDOWS\SYSTEM32\oleaut32.dll=No
+C:\WINDOWS\SYSTEM32\olepro32.dll=No
+C:\WINDOWS\SYSTEM32\asycfilt.dll=No
+C:\WINDOWS\SYSTEM32\stdole2.tlb=No
+C:\WINDOWS\SYSTEM32\comcat.dll=No
+C:\Documents and Settings\default\Desktop\tts\Xvoice.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|tts|Configure Registry Files]
+Applicable=No
+
+[Package|tts|Configure Remote Servers]
+Applicable=No
+
+[Package|tts|Install Locations]
+C:\Documents and Settings\default\Desktop\tts\Text To Speech.exe=$(AppPath)
+C:\Documents and Settings\default\Desktop\tts\Xvoice.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|tts|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\default\Desktop\tts\Text To Speech.exe=No
+
+[Package|tts|Distribution]
+Type=single
+Size=
+Title=Text-To-Speech For Windows 2000
+
+[Package|tts|IconGroups]
+Group0=Brian's Stuff
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|tts|Brian's Stuff]
+Icon1="Text To Speech.EXE"
+Title1=Text-To-Speech For Windows 2000
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|tts|Package]
+PackageFolder=C:\Documents and Settings\default\Desktop\tts\package
+ProjectFolder=C:\Documents and Settings\default\Desktop\tts
+ServerSideCab=
+File1=C:\Documents and Settings\default\Desktop\tts\package\setup.exe
+File2=C:\Documents and Settings\default\Desktop\tts\package\Setup.Lst
+File3=C:\Documents and Settings\default\Desktop\tts\package\Text To Speech.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
